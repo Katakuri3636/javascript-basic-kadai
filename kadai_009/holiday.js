@@ -4,3 +4,12 @@ for (let i = 0; i < holidays.length; i++) {
     console.log(holidays[i]);
   }
  
+  i = 0
+  while (true){
+    console.log(holidays[i]);
+    i++
+    if(i == 16){
+      break;
+    }
+  }
+ 
